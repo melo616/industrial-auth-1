@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root "users#feed"
-
+  #comment for pull request purposes
   devise_for :users
   
   resources :comments
